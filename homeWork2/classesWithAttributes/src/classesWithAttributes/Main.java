@@ -5,11 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 	
 		Product pro = new Product();
-		pro.id = 115;
-		pro.name="laptop";
-		pro.price= 13450;
-		pro.description = "Asus laptop";
-		pro.stock = 8;
+		pro.setId(1);
+		pro.setName("aaaa");
+		pro.setPrice(1000);
+		pro.setDescription("Asus laptop");
+		pro.setStock(8);
+		
+		System.out.println(pro.getId());
 		
 		/*
 		System.out.println(pro.description);
